@@ -1,0 +1,18 @@
+directories:
+  output: dist
+  buildResources: build
+appId: test.app
+releaseInfo:
+  releaseNotes: |-
+    1.说明一 
+     2.说明二
+publish:
+  - provider: generic
+    url: 'http://207.148.73.42/static/'
+mac:
+  target:
+    - dmg
+win:
+  target:
+    - zip
+electronVersion: 2.0.1
